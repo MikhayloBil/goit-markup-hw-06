@@ -105,7 +105,7 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  /* margin-right: 76px; */
 }
 .header-logo-link:active,
 .header-logo-link:hover,
@@ -151,7 +151,8 @@ address {
 
 .header-address {
   font-style: normal;
-  margin-left: auto;
+  /* margin-left: auto; */
+  margin-left: 121px;
 }
 
 .header-address-link:active,
@@ -175,6 +176,7 @@ address {
 }
 /* ------------------------------ */
 .menu-open-btn {
+  display: flex;
   background-color: #fff;
   border-color: #fff;
   border: 1px solid #fff;
@@ -980,6 +982,31 @@ address {
 /* -------------768-------------- */
 
 @media screen and (min-width: 768px) {
+  .header-container {
+    height: 72px;
+  }
+  .menu-open-btn {
+    display: none;
+  }
+
+  .mob-menu {
+    display: none;
+  }
+
+  .header-logo-link {
+    margin-right: 120px;
+  }
+
+  .header-menu-list {
+    display: flex;
+  }
+
+  .header-address-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
   .hero {
     padding: 112px 0;
   }
@@ -1054,6 +1081,14 @@ address {
 /* -------------1158------------- */
 
 @media screen and (min-width: 1158px) {
+  .header-logo-link {
+    margin-right: 76px;
+  }
+
+  .header-address {
+    margin-left: auto;
+  }
+
   .hero {
     padding: 188px 0;
   }
