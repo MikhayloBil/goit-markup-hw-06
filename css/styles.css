@@ -284,7 +284,7 @@ address {
       var(--GREY, rgba(46, 47, 66, 0.7)),
       var(--GREY, rgba(46, 47, 66, 0.7))
     ),
-    url(../images/Dark-bg\ mob.jpg);
+    url(../images/Dark-bg-mob.jpg);
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
@@ -1012,7 +1012,7 @@ address {
         var(--GREY, rgba(46, 47, 66, 0.7)),
         var(--GREY, rgba(46, 47, 66, 0.7))
       ),
-      url(../images/Dark-bg\ tab.jpg);
+      url(../images/Dark-bg-tab.jpg);
     padding: 112px 0;
   }
 
