@@ -1075,6 +1075,10 @@ address {
   .footer-form-subtitel {
     text-align: left;
   }
+
+  .backdrop {
+    height: 584px;
+  }
 }
 
 /* ------------------------------ */
