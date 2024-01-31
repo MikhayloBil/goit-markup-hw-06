@@ -1084,6 +1084,10 @@ address {
     padding: 120px 0;
   }
 
+  .features-title {
+    text-align: left;
+  }
+
   .team-list {
     gap: 24px;
   }
